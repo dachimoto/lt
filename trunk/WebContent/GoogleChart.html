@@ -1,0 +1,28 @@
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["piechart"]});
+      google.setOnLoadCallback(drawChart); // Set callback to run when API is loaded
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Task');
+        data.addColumn('number', 'Hours per Day');
+        data.addRows(5);
+        data.setValue(0, 0, '働く');
+        data.setValue(0, 1, 11);
+        data.setValue(1, 0, '食べる');
+        data.setValue(1, 1, 1);
+        data.setValue(2, 0, '日本語の勉強');
+        data.setValue(2, 1, 4);
+        data.setValue(3, 0, 'テレビを見る');
+        data.setValue(3, 1, 1);
+        data.setValue(4, 0, '寝る');
+        data.setValue(4, 1, 7);
+
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, {width: 230, height: 200, is3D: true, title: '毎日の生活'});
+      }
+    </script>
+  
+
+  
+    <div id="chart_div"></div>

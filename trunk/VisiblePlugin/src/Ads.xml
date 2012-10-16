@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OverlayStructure>
+  <Video id="1038076836001" numberOverlay="2">
+    <Overlay width="300" height="80" cuePointSec="7">
+      <Content>
+        <P>1. TEXT HERE</P>
+        <P>2. TEXT HERE  | $70.00 </P>
+        <P>SALE ENDS  MAY 21, 10:00AM</P>
+      </Content>
+    </Overlay>
+  </Video>
+</OverlayStructure>

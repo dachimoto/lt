@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/xml/player/video_schema.xsd">
+    <id>12</id>
+	<externalId>895622935001</externalId>
+    <title>Chic Pieces You&apos;ll Wear Obsessively</title>
+    <host>
+        <name>Gina Pell</name>
+    </host>
+    <url>https://www.projectjstaging.com/sale/chic-pieces-you%27ll-wear-obsessively</url>
+    <startDateTime>2011-04-07T23:00:00Z</startDateTime>
+    <endDateTime>2011-04-12T01:00:00Z</endDateTime>
+    <triggers>
+        <prePlayTrigger>
+            <titleOverlay/>
+        </prePlayTrigger>
+        <pauseTrigger>
+            <inputOverlay>
+                <label>Subscribe to receive updates on future Joyus.com sales</label>
+                <name>email</name>
+                <value>Enter your email address</value>
+                <validatePattern>\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b</validatePattern>
+                <errorMessage>Please enter a valid email address</errorMessage>
+                <submitUrl>https://www.projectjstaging.com/account/emailSubscribe</submitUrl>
+                <confirmMessage>Your email has been submitted. Thank you for your interest in Joyus!</confirmMessage>
+            </inputOverlay>
+        </pauseTrigger>
+        <endTrigger>
+            <inputOverlay>
+                <label>Subscribe to receive updates on future Joyus.com sales</label>
+                <name>email</name>
+                <value>Enter your email address</value>
+                <validatePattern>\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b</validatePattern>
+                <errorMessage>Please enter a valid email address</errorMessage>
+                <submitUrl>https://www.projectjstaging.com/account/emailSubscribe</submitUrl>
+                <confirmMessage>Your email has been submitted. Thank you for your interest in Joyus!</confirmMessage>
+            </inputOverlay>
+        </endTrigger>
+        <cuePointTrigger>
+            <productOverlay>
+                <product>
+                    <id>50029</id>
+                    <name>Star Patch Sweater</name>
+                    <brand>Maison &amp; Scotch</brand>
+                    <currency>USD</currency>
+                    <price>120.00</price>
+                    <salePrice>109.00</salePrice>
+                    <url>https://www.projectjstaging.com/catalog/productDetails?productId=50029</url>
+                </product>
+            </productOverlay>
+            <cuePoint>00:00:01</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <productOverlay>
+                <product>
+                    <id>50019</id>
+                    <name>Leather Panel Legging</name>
+                    <brand>Rag &amp; Bone</brand>
+                    <currency>USD</currency>
+                    <price>475.00</price>
+                    <salePrice>135.00</salePrice>
+                    <url>https://www.projectjstaging.com/catalog/productDetails?productId=50019</url>
+                </product>
+            </productOverlay>
+            <cuePoint>00:00:02</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <productOverlay>
+                <product>
+                    <id>50020</id>
+                    <name>Fitted Wool Crepe Jacket</name>
+                    <brand>MaxStudio</brand>
+                    <currency>USD</currency>
+                    <price>278.00</price>
+                    <salePrice>128.00</salePrice>
+                    <url>https://www.projectjstaging.com/catalog/productDetails?productId=50020</url>
+                </product>
+            </productOverlay>
+            <cuePoint>00:00:03</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <productOverlay>
+                <product>
+                    <id>50028</id>
+                    <name>Lightweight Toggle Dress</name>
+                    <brand>Clemens en August</brand>
+                    <currency>USD</currency>
+                    <price>490.00</price>
+                    <salePrice>186.00</salePrice>
+                    <url>https://www.projectjstaging.com/catalog/productDetails?productId=50028</url>
+                </product>
+            </productOverlay>
+            <cuePoint>00:00:04</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <productOverlay>
+                <product>
+                    <id>50023</id>
+                    <name>Pink/Grey/White Carousel Scarf</name>
+                    <brand>Hermes</brand>
+                    <currency>USD</currency>
+                    <price>385.00</price>
+                    <salePrice>225.00</salePrice>
+                    <url>https://www.projectjstaging.com/catalog/productDetails?productId=50023</url>
+                </product>
+            </productOverlay>
+            <cuePoint>00:00:05</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <productOverlay>
+                <product>
+                    <id>50022</id>
+                    <name>Grey/Coral Scarf</name>
+                    <brand>Hermes</brand>
+                    <currency>USD</currency>
+                    <price>385.00</price>
+                    <salePrice>225.00</salePrice>
+                    <url>https://www.projectjstaging.com/catalog/productDetails?productId=50022</url>
+                </product>
+            </productOverlay>
+            <cuePoint>00:00:06</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <productOverlay>
+                <product>
+                    <id>50021</id>
+                    <name>Purple/Blue Polo Scarf</name>
+                    <brand>Hermes</brand>
+                    <currency>USD</currency>
+                    <price>385.00</price>
+                    <salePrice>225.00</salePrice>
+                    <url>https://www.projectjstaging.com/catalog/productDetails?productId=50021</url>
+                </product>
+            </productOverlay>
+            <cuePoint>00:00:07</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <productOverlay>
+                <product>
+                    <id>50024</id>
+                    <name>Green Twilly</name>
+                    <brand>Hermes</brand>
+                    <currency>USD</currency>
+                    <price>135.00</price>
+                    <salePrice>65.00</salePrice>
+                    <url>https://www.projectjstaging.com/catalog/productDetails?productId=50024</url>
+                </product>
+            </productOverlay>
+            <cuePoint>00:00:08</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <productOverlay>
+                <product>
+                    <id>50025</id>
+                    <name>Pink Twilly</name>
+                    <brand>Hermes</brand>
+                    <currency>USD</currency>
+                    <price>135.00</price>
+                    <salePrice>65.00</salePrice>
+                    <url>https://www.projectjstaging.com/catalog/productDetails?productId=50025</url>
+                </product>
+            </productOverlay>
+            <cuePoint>00:00:09</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <tipOverlay>
+                <tip>
+                    <text>Join Gina and Amy as they model Gina&apos;s favorite pieces - ones that look great on everybody.</text>
+                </tip>
+            </tipOverlay>
+            <cuePoint>00:00:00</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <tipOverlay>
+                <tip>
+                    <text>This simple sweater can be worn with jeans for a more casual look, or trousers for a work look. No matter what you pair it with, the details in the back bring flair to any outfit. </text>
+                </tip>
+            </tipOverlay>
+            <cuePoint>00:00:48</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <tipOverlay>
+                <tip>
+                    <text>Pair these leggings with either heels or flats. They can be worn with sweaters or tops or under a dress.</text>
+                </tip>
+            </tipOverlay>
+            <cuePoint>00:01:13</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <tipOverlay>
+                <tip>
+                    <text>Styled with a pencil skirt, this blazer makes for a smart statement suit.  Paired with a dress or denim, it conveys a more playful feel. Add a vibrant scarf around the neck for a nice pop of color.</text>
+                </tip>
+            </tipOverlay>
+            <cuePoint>00:01:30</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <tipOverlay>
+                <tip>
+                    <text>Pair this dress with a nude shoe and a nude lip to make it the perfect outfit for spring.</text>
+                </tip>
+            </tipOverlay>
+            <cuePoint>00:02:05</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+        <cuePointTrigger>
+            <tipOverlay>
+                <tip>
+                    <text>Fold once into a triangle and tie it around your head, around your neck, around your shoulders, or onto your purse.</text>
+                </tip>
+            </tipOverlay>
+            <cuePoint>00:02:53</cuePoint>
+            <duration>PT5S</duration>
+        </cuePointTrigger>
+    </triggers>
+</video>

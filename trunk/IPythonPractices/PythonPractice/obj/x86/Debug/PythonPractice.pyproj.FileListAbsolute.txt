@@ -1,0 +1,15 @@
+D:\Practices\PythonPractice\PythonPractice\bin\Debug\PythonPractice.exe.config
+D:\Practices\PythonPractice\PythonPractice\bin\Debug\PythonPractice.exe
+D:\Practices\PythonPractice\PythonPractice\bin\Debug\PythonPractice.dll
+D:\Practices\PythonPractice\PythonPractice\bin\Debug\IronPython.dll
+D:\Practices\PythonPractice\PythonPractice\bin\Debug\IronPython.Modules.dll
+D:\Practices\PythonPractice\PythonPractice\bin\Debug\Microsoft.Dynamic.dll
+D:\Practices\PythonPractice\PythonPractice\bin\Debug\Microsoft.Scripting.dll
+D:\Practices\PythonPractice\PythonPractice\bin\Debug\Microsoft.Scripting.Debugging.dll
+D:\Practices\PythonPractice\PythonPractice\bin\Debug\IronPython.xml
+D:\Practices\PythonPractice\PythonPractice\bin\Debug\IronPython.Modules.xml
+D:\Practices\PythonPractice\PythonPractice\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Practices\PythonPractice\PythonPractice\obj\x86\Debug\PythonPractice.MainForm.resources
+D:\Practices\PythonPractice\PythonPractice\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Practices\PythonPractice\PythonPractice\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Practices\PythonPractice\PythonPractice\obj\x86\Debug\PythonPractice.exe

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!-- dragdrop\DandDImage.mxml -->
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
+
+    <mx:Script>
+        <![CDATA[
+            //Import classes so you don't have to use full names.
+            import mx.managers.DragManager;
+            import mx.core.DragSource;
+            import mx.events.DragEvent;
+            import flash.events.MouseEvent;
+
+            // Embed icon image.
+            [Embed(source='../images/wr66.gif')]
+            public var globeImage:Class;
+
+            // The mouseMove event handler for the Image control
+            // initiates the drag-and-drop operation.
+            private function mouseMoveHandler(event:MouseEvent):void 
+            {                
+                var dragInitiator:Image=Image(event.currentTarget);
+                var ds:DragSource = new DragSource();
+                ds.addData(dragInitiator, "img");               
+
+                DragManager.doDrag(dragInitiator, ds, event);
+            }
+            
+            // The dragEnter event handler for the Canvas container
+            // enables dropping.
+            private function dragEnterHandler(event:DragEvent):void {
+                if (event.dragSource.hasFormat("img"))
+                {
+                    DragManager.acceptDragDrop(Canvas(event.currentTarget));
+                }
+            }
+
+            // The dragDrop event handler for the Canvas container
+            // sets the Image control's position by 
+            // "dropping" it in its new location.
+            private function dragDropHandler(event:DragEvent):void {
+                Image(event.dragInitiator).x = 
+                    Canvas(event.currentTarget).mouseX;
+                Image(event.dragInitiator).y = 
+                    Canvas(event.currentTarget).mouseY;
+            }
+        ]]>
+    </mx:Script>
+    
+    <!-- The Canvas is the drag target --> 
+    <mx:Canvas id="v1" 
+        width="500" height="500"  
+        borderStyle="solid" 
+        backgroundColor="#DDDDDD"
+        dragEnter="dragEnterHandler(event);" 
+        dragDrop="dragDropHandler(event);">
+        
+        <!-- The image is the drag initiator. -->
+        <mx:Image id="myimg" 
+            source="@Embed(source='../images/wr66.gif')" 
+            mouseMove="mouseMoveHandler(event);"/> 
+    </mx:Canvas>
+</mx:Application>
